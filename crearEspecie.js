@@ -2,16 +2,16 @@
 
 import Especie from "./Especie.js";
 
-const miEspecie=new Especie();
+const miEspecie = new Especie();
 
-const miBoton=document.getElementById("btnProcesar");
+const miBoton = document.getElementById("btnProcesar");
 
- miBoton.addEventListener("click",
-async (event)=>{
-    event.preventDefault();
-    // para deshabilitar el boton
-    miBoton.disabled=true;
-    
-    await miEspecie.guardarEspecie();
-}
+miBoton.addEventListener("click",
+    async (event) => {
+        event.preventDefault();
+        // para deshabilitar el boton
+        miBoton.disabled = true;
+
+        await miEspecie.guardarEspecie();
+    }
 );
