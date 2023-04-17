@@ -1,0 +1,88 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row d-flex"></div>
+            <div class="col-md-3 col-log-2 border text-center">
+                <img src="" alt="logo de you happy veterinaria">
+            </div>
+            <div class="col-md-9 border slogan d-flex">
+                <h1>Cuidamos a tu mejor amigo</h1>
+            </div>
+
+        </div>
+    </header>
+    <nav class="navbar navbar- expand-md">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" type="button" data-target="barra">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="barra">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="navlink" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="navlink" href="crearEspecie.html">Crear responsable</a></li>
+                    <li class="nav-item"><a class="navlink" href="#">Crear paciente</a></li>
+                    <li class="nav-item"><a class="navlink" href="#">Crear especie</a></li>
+                    <li class="nav-item"><a class="navlink" href="#">Crear raza</a></li>
+                    <li class="nav-item"><a class="navlink" href="#">Acerca de </a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <main>
+        <div class="container d-flex justify-content-center">
+            <form class="col-lg-6">
+                <div class="col-12">
+                    <lavel for="nombre form-label">Nombre</lavel>
+                    <input class="form-control" type="text" name="nombre" id="nombre" required>
+
+                </div>
+                <div class="col-12">
+                    <lavel for="clasificacion form-label">Clasificacion</lavel>
+                    <input class="form-control" type="text" name="clasificacion" id="clasificacion" required>
+
+                </div>
+                <div class="col-12">
+                    <lavel for="esperanza_vida form-label">Esperanza de vida</lavel>
+                    <input class="form-control" type="number" name="esperanza_vida" id="esperanza_vida" required>
+
+                </div>
+                <div class="col-12">
+                    <lavel for="peso_promedio form-label">Peso promedio</lavel>
+                    <input class="form-control" type="number" name="peso_promedio" id="peso_promedio" required>
+
+                </div>
+                <div class="col-12 mt-4 d-flex justifity-content-center">
+                    <button class="btn btn-primary col-6" type="submit">Registrar</button>
+                </div>
+
+
+        </div>
+        </form>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+    <script src="programa.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
